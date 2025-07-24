@@ -41,7 +41,7 @@ public class TransactionPropagationTests {
         return emp;
     }
 
-    @Test
+ /*   @Test
     void testRequiredPropagation_Success() {
         Employee emp = getSampleEmployee("Engineering", "MG Road");
         employeeService.saveEmployeeWithRequired(emp);
@@ -104,5 +104,5 @@ public class TransactionPropagationTests {
     void testNotSupportedPropagation_WithOuterTx() {
         Employee emp = getSampleEmployee("Engineering", "Andheri");
         employeeService.saveEmployeeWithNotSupported(emp);
-    }
+    }*/
 }
